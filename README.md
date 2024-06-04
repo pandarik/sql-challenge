@@ -5,11 +5,12 @@
 Welcome to the Pewlett Hackard Employee Database project! In this repository, we’ll explore data modeling, data engineering, and data analysis related to employees who worked at Pewlett Hackard during the 1980s and 1990s.
 
 # Background
-As a new data engineer at Pewlett Hackard, your task is to work with six CSV files containing employee data. Your goal is to design the necessary database tables, import the data, and answer specific questions about the employees.
+As a new data engineer at Pewlett Hackard, task is to work with six CSV files containing employee data. The goal is to design the necessary database tables, import the data, and answer specific questions about the employees.
 
 # Data Modeling - ERD (Entity-Relationship Diagram)
 This ERD illustrates the relationships between the various tables in our employee's database. Make sure to create the tables in the correct order, as follows, to avoid foreign key constraint conflicts.
-ERD EmployeesERDQuickDBD-empl.png is in the EmployeeSQL folder.
+ERD EmployeesERDQuickDBD-empl.png is in the EmployeeSQL folder. Here's the link:
+https://github.com/pandarik/sql-challenge/blob/main/EmployeeSQL/EmployeesERDQuickDBD-empl.png
 
 
 
@@ -65,7 +66,8 @@ CREATE TABLE salaries (
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
-Table Schemas a EmployeesSchemata.sql are in the EmployeeSQL folder.
+Table Schemas a EmployeesSchemata.sql are in the EmployeeSQL folder. Here's the link:
+https://github.com/pandarik/sql-challenge/blob/main/EmployeeSQL/EmployeesSchemata.sql
 
 
 
@@ -137,7 +139,12 @@ FROM employees
 GROUP BY last_name
 ORDER BY frequency DESC;
 
-Queries for Data Analysis EmployeesDataAnalysisQueries.sql are in the EmployeeSQL folder.
+Queries for Data Analysis EmployeesDataAnalysisQueries.sql are in the EmployeeSQL folder. Here's the link:
+https://github.com/pandarik/sql-challenge/blob/main/EmployeeSQL/EmployeesDataAnalysisQueries.sql
+
+
+# Acknowledgments
+Leveraged Google, ChatGPT, and Copoilet as/where needed to develop/validate/troubleshoot code/data/functions. The Python and data science community for their invaluable resources.
 
 
 
