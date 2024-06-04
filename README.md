@@ -9,7 +9,7 @@ As a new data engineer at Pewlett Hackard, your task is to work with six CSV fil
 
 # Data Modeling - ERD (Entity-Relationship Diagram)
 This ERD illustrates the relationships between the various tables in our employee's database. Make sure to create the tables in the correct order, as follows, to avoid foreign key constraint conflicts.
-# ERD EmployeesERDQuickDBD-empl.png is in the EmployeeSQL folder.
+ERD EmployeesERDQuickDBD-empl.png is in the EmployeeSQL folder.
 
 
 
@@ -65,7 +65,7 @@ CREATE TABLE salaries (
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
-# Table Schemas a EmployeesSchemata.sql are in the EmployeeSQL folder.
+Table Schemas a EmployeesSchemata.sql are in the EmployeeSQL folder.
 
 
 
@@ -137,7 +137,7 @@ FROM employees
 GROUP BY last_name
 ORDER BY frequency DESC;
 
-# Queries for Data Analysis EmployeesDataAnalysisQueries.sql are in the EmployeeSQL folder.
+Queries for Data Analysis EmployeesDataAnalysisQueries.sql are in the EmployeeSQL folder.
 
 
 
